@@ -8,7 +8,7 @@ class TotalSupplyOfBitcoin {
         this.numberBitcoinHalvings = 21e4; // Número de bloques entre halvings.
         this.cumulativeHalvings = Math.pow(2, 0); // Acumulación de halvings.
         this.acumulado = 0; //suma de todos los bitcoin.
-        this.contyear = 2008; //Iincializador de anio
+        this.contyear = 2008; //Inicializador de anio
         this.outputElement = document.getElementById('output'); // Elemento para mostrar la salida
     }
 
